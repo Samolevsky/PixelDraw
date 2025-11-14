@@ -14,7 +14,7 @@ A modern, feature-rich pixel art editor. Create stunning pixel art with an intui
 - **Zoom & Pan**: Navigate large canvases with zoom (25%-300%) and hand tool
 - **Export Options**: Save as PNG or SVG, with copy-to-clipboard support
 - **Project Management**: Save and load complete projects with all layers
-- **Theme Support**: Light and dark themes
+- **Automatic Theme Switching**: Detects system theme with real-time updates
 - **Keyboard Shortcuts**: Efficient workflow with hotkeys
 
 ## Getting Started
@@ -42,14 +42,22 @@ No build process or dependencies required - it's pure HTML, CSS, and JavaScript.
 
 - **Draw (D)**: Paint pixels with the selected color
   - Click and drag to draw
+  - Adjust opacity slider (0-100%) to create semi-transparent colors
   - Hold Cmd/Ctrl while drawing to temporarily switch to Erase
   
 - **Erase (E)**: Remove pixels
   - Click and drag to erase
+  - Adjust opacity slider (0-100%) to partially fade pixels instead of fully erasing
+  - 0% opacity = no erasing, 100% opacity = fully remove pixels
   - Hold Cmd/Ctrl while erasing to temporarily switch to Draw
 
 - **Fill (F)**: Flood fill an area with the selected color
   - Click any pixel to fill connected pixels of the same color
+  - Choose from multiple fill patterns in the header (appears when Fill tool is active):
+    - **Solid**: Fill all pixels (default)
+    - **Checkerboard**: Fill in a checkerboard pattern (skips alternating pixels)
+    - **Vertical Lines**: Fill every other column
+    - **Horizontal Lines**: Fill every other row
 
 - **Clear (C)**: Clear all pixels on the active layer
   - Removes all content from the current layer
@@ -81,6 +89,37 @@ No build process or dependencies required - it's pure HTML, CSS, and JavaScript.
   - Use the zoom controls (bottom right) to adjust level
   - Zoom range: 25% to 300%
   - Click "Reset" to return to 100%
+
+### Opacity Control
+
+The opacity slider appears in the header when using the Draw or Erase tool:
+
+#### Draw Tool Opacity
+- Adjust the slider (0-100%) to control color transparency
+- Lower values create semi-transparent colors that blend with existing pixels
+- 100% = fully opaque (default)
+- Right-click the slider to reset to 100%
+- Click the percentage value to type a specific number
+
+#### Erase Tool Opacity
+- Adjust the slider (0-100%) to control how much pixels are faded
+- Lower values partially fade pixels instead of fully erasing them
+- 0% = no erasing at all
+- 100% = fully remove pixels (default)
+- Right-click the slider to reset to 100%
+- Click the percentage value to type a specific number
+
+### Fill Options
+
+When the Fill tool is selected, a Pattern dropdown appears in the header to control how the Fill tool applies color:
+
+#### Fill Patterns
+- **Solid**: Fills all connected pixels with the selected color (default)
+- **Checkerboard**: Creates a checkerboard pattern by filling alternating pixels
+- **Vertical Lines**: Fills every other column, creating vertical stripes
+- **Horizontal Lines**: Fills every other row, creating horizontal stripes
+
+These patterns are useful for creating textures, dithering effects, or semi-transparent appearances in pixel art. The pattern selector is contextual and only appears when you have the Fill tool active.
 
 ### Canvas Settings
 
@@ -129,6 +168,7 @@ Create symmetrical designs automatically:
 #### Managing Layers
 - **Add Layer**: Click the "+" button in the Layers panel
 - **Add Image Layer**: Import an image as a new layer
+- **Drag Image to Layer Position**: Drag and drop an image file onto the layers panel to create a new layer at that specific position
 - **Select Layer**: Click a layer to make it active
 - **Toggle Visibility**: Click the eye icon to show/hide layers
 - **Lock Layer**: Click the lock icon to prevent editing
@@ -194,12 +234,6 @@ Create symmetrical designs automatically:
 | Cmd/Ctrl + Draw | Temporarily switch to Erase |
 | Cmd/Ctrl + Erase | Temporarily switch to Draw |
 
-### Theme Toggle
-
-Switch between light and dark themes:
-- Click the theme toggle switch in the header
-- Theme preference is saved automatically
-- Both themes are optimized for comfortable use
 
 ## Tips & Tricks
 
@@ -220,17 +254,6 @@ Switch between light and dark themes:
 8. **Export Formats**: 
    - Use PNG for final artwork and sharing
    - Use SVG when you need scalable graphics or further editing
-
-## Browser Compatibility
-
-PixelDraw works best in modern browsers:
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-
-## Version
-
-Current version: 0.8.5
 
 
 ## Credits
