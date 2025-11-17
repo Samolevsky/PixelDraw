@@ -1,1 +1,89 @@
-const _0x4514f7=_0x1356;function _0x4385(){const _0x12b5bb=['79148rCbLcR','auto','\x20\x20\x20//\x20Then\x20change\x20your\x20OS\x20theme\x20settings','font-weight:\x20bold;\x20color:\x20#4285f4;','\x20\x20\x20PixelDrawTheme.setTheme(\x22dark\x22)\x20\x20\x20\x20//\x20Force\x20dark\x20theme','%cCurrent\x20Status:','%c1.\x20Get\x20Current\x20Theme','\x20\x20\x20Returns:\x20\x22light\x22\x20or\x20\x22dark\x22','820040GJrqCP','4892468ewqSGM','%c🔍\x20Theme\x20Monitor\x20Started','%cBonus:','\x20\x20\x20Switches\x20between\x20light\x20and\x20dark','%cAvailable\x20Commands:','font-size:\x2014px;\x20color:\x20#34a853;','%cTry\x20it\x20now:','%c🎨\x20Theme\x20changed:\x20','32JyKczt','log','monitorTheme','30PcSFlZ','Saved\x20Preference:','font-weight:\x20bold;','\x20\x20\x20//\x20Watch\x20the\x20app\x20update\x20automatically!','6FOOtby','font-size:\x2020px;\x20font-weight:\x20bold;\x20color:\x20#4285f4;','\x20\x20\x20PixelDrawTheme.getCurrentTheme()','14eFjxRT','%cThe\x20theme\x20system\x20is\x20now\x20active!','The\x20app\x20will\x20follow\x20your\x20system\x20theme\x20automatically.','Current\x20Theme:','%c4.\x20Toggle\x20Theme','\x20\x20\x20PixelDrawTheme.getSavedTheme()','(prefers-color-scheme:\x20dark)','\x20\x20\x20//\x20Set\x20to\x20auto\x20mode\x20first','font-weight:\x20bold;\x20font-size:\x2016px;','4622920bLgVNo','Run:\x20PixelDrawTheme.setTheme(\x22auto\x22)\x20to\x20enable\x20auto-detection','Run:\x20monitorTheme()\x20to\x20watch\x20for\x20theme\x20changes\x20in\x20real-time','\x20\x20\x20PixelDrawTheme.setTheme(\x22light\x22)\x20\x20\x20//\x20Force\x20light\x20theme','%c⚙️\x20Manual\x20mode\x20is\x20active','Press\x20Ctrl+C\x20to\x20stop','getSavedTheme','%c5.\x20Test\x20System\x20Theme\x20Detection','The\x20app\x20is\x20using\x20your\x20saved\x20preference.','4680876WTbTCD','\x20\x20\x20PixelDrawTheme.setTheme(\x22auto\x22)','Type:\x20PixelDrawTheme.toggle()','6608151IIYkbZ','font-weight:\x20bold;\x20font-size:\x2016px;\x20color:\x20#ea4335;','matches','2653218KzSqWu','matchMedia','%c✅\x20Auto-detection\x20is\x20ACTIVE','getCurrentTheme'];_0x4385=function(){return _0x12b5bb;};return _0x4385();}(function(_0x4f47a3,_0x282407){const _0x57ab5b=_0x1356,_0x4c01af=_0x4f47a3();while(!![]){try{const _0x1201bd=-parseInt(_0x57ab5b(0x14b))/0x1+parseInt(_0x57ab5b(0x143))/0x2*(parseInt(_0x57ab5b(0x15b))/0x3)+parseInt(_0x57ab5b(0x14c))/0x4+-parseInt(_0x57ab5b(0x167))/0x5+parseInt(_0x57ab5b(0x139))/0x6*(-parseInt(_0x57ab5b(0x15e))/0x7)+parseInt(_0x57ab5b(0x154))/0x8*(parseInt(_0x57ab5b(0x13f))/0x9)+parseInt(_0x57ab5b(0x157))/0xa*(parseInt(_0x57ab5b(0x13c))/0xb);if(_0x1201bd===_0x282407)break;else _0x4c01af['push'](_0x4c01af['shift']());}catch(_0x49b0a2){_0x4c01af['push'](_0x4c01af['shift']());}}}(_0x4385,0xeef5c),console['log']('%c🎨\x20PixelDraw\x20Theme\x20System\x20Demo',_0x4514f7(0x15c)),console[_0x4514f7(0x155)](_0x4514f7(0x15f),_0x4514f7(0x151)),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)](_0x4514f7(0x150),_0x4514f7(0x166)),console[_0x4514f7(0x155)](''),console['log'](_0x4514f7(0x149),_0x4514f7(0x159)),console['log'](_0x4514f7(0x15d)),console['log'](_0x4514f7(0x14a)),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)]('%c2.\x20Get\x20Saved\x20Preference',_0x4514f7(0x159)),console['log'](_0x4514f7(0x163)),console[_0x4514f7(0x155)]('\x20\x20\x20Returns:\x20\x22light\x22,\x20\x22dark\x22,\x20or\x20\x22auto\x22'),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)]('%c3.\x20Set\x20Theme\x20Manually',_0x4514f7(0x159)),console[_0x4514f7(0x155)](_0x4514f7(0x16a)),console[_0x4514f7(0x155)](_0x4514f7(0x147)),console[_0x4514f7(0x155)]('\x20\x20\x20PixelDrawTheme.setTheme(\x22auto\x22)\x20\x20\x20\x20//\x20Follow\x20system\x20theme'),console[_0x4514f7(0x155)](''),console['log'](_0x4514f7(0x162),'font-weight:\x20bold;'),console['log']('\x20\x20\x20PixelDrawTheme.toggle()'),console[_0x4514f7(0x155)](_0x4514f7(0x14f)),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)](_0x4514f7(0x137),_0x4514f7(0x159)),console[_0x4514f7(0x155)](_0x4514f7(0x165)),console['log'](_0x4514f7(0x13a)),console[_0x4514f7(0x155)](_0x4514f7(0x145)),console[_0x4514f7(0x155)](_0x4514f7(0x15a)),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)](_0x4514f7(0x152),'font-weight:\x20bold;\x20font-size:\x2016px;\x20color:\x20#fbbc05;'),console[_0x4514f7(0x155)](_0x4514f7(0x13b)),console[_0x4514f7(0x155)](''),console[_0x4514f7(0x155)](_0x4514f7(0x148),_0x4514f7(0x13d)),console[_0x4514f7(0x155)](_0x4514f7(0x161),PixelDrawTheme[_0x4514f7(0x142)]()),console[_0x4514f7(0x155)](_0x4514f7(0x158),PixelDrawTheme[_0x4514f7(0x16d)]()));const systemTheme=window[_0x4514f7(0x140)](_0x4514f7(0x164))[_0x4514f7(0x13e)]?'dark':'light';console[_0x4514f7(0x155)]('System\x20Theme:',systemTheme),console['log']('');PixelDrawTheme[_0x4514f7(0x16d)]()===_0x4514f7(0x144)?(console['log'](_0x4514f7(0x141),'color:\x20#34a853;\x20font-weight:\x20bold;'),console[_0x4514f7(0x155)](_0x4514f7(0x160))):(console['log'](_0x4514f7(0x16b),'color:\x20#4285f4;\x20font-weight:\x20bold;'),console[_0x4514f7(0x155)](_0x4514f7(0x138)),console[_0x4514f7(0x155)](_0x4514f7(0x168)));function _0x1356(_0xa660b2,_0x3a8051){const _0x4385c8=_0x4385();return _0x1356=function(_0x135663,_0x4ad6e9){_0x135663=_0x135663-0x137;let _0x4ff583=_0x4385c8[_0x135663];return _0x4ff583;},_0x1356(_0xa660b2,_0x3a8051);}console[_0x4514f7(0x155)](''),window[_0x4514f7(0x156)]=function(){const _0x2bece8=_0x4514f7;console[_0x2bece8(0x155)](_0x2bece8(0x14d),_0x2bece8(0x146)),console['log']('Watching\x20for\x20theme\x20changes...'),console[_0x2bece8(0x155)](_0x2bece8(0x16c));let _0xeb1abe=PixelDrawTheme[_0x2bece8(0x142)]();const _0x5ef567=setInterval(()=>{const _0x37321e=_0x2bece8,_0x4d0cfc=PixelDrawTheme[_0x37321e(0x142)]();_0x4d0cfc!==_0xeb1abe&&(console[_0x37321e(0x155)](_0x37321e(0x153)+_0xeb1abe+'\x20→\x20'+_0x4d0cfc,'color:\x20#fbbc05;\x20font-weight:\x20bold;'),_0xeb1abe=_0x4d0cfc);},0x1f4);return _0x5ef567;},console[_0x4514f7(0x155)](_0x4514f7(0x14e),_0x4514f7(0x166)),console[_0x4514f7(0x155)](_0x4514f7(0x169)),console['log']('');
+/**
+ * PixelDraw Theme System Demo
+ * 
+ * This script demonstrates the theme system API and capabilities.
+ * Open the browser console and run these commands to test the theme system.
+ */
+
+console.log('%c🎨 PixelDraw Theme System Demo', 'font-size: 20px; font-weight: bold; color: #4285f4;');
+console.log('%cThe theme system is now active!', 'font-size: 14px; color: #34a853;');
+console.log('');
+
+console.log('%cAvailable Commands:', 'font-weight: bold; font-size: 16px;');
+console.log('');
+
+console.log('%c1. Get Current Theme', 'font-weight: bold;');
+console.log('   PixelDrawTheme.getCurrentTheme()');
+console.log('   Returns: "light" or "dark"');
+console.log('');
+
+console.log('%c2. Get Saved Preference', 'font-weight: bold;');
+console.log('   PixelDrawTheme.getSavedTheme()');
+console.log('   Returns: "light", "dark", or "auto"');
+console.log('');
+
+console.log('%c3. Set Theme Manually', 'font-weight: bold;');
+console.log('   PixelDrawTheme.setTheme("light")   // Force light theme');
+console.log('   PixelDrawTheme.setTheme("dark")    // Force dark theme');
+console.log('   PixelDrawTheme.setTheme("auto")    // Follow system theme');
+console.log('');
+
+console.log('%c4. Toggle Theme', 'font-weight: bold;');
+console.log('   PixelDrawTheme.toggle()');
+console.log('   Switches between light and dark');
+console.log('');
+
+console.log('%c5. Test System Theme Detection', 'font-weight: bold;');
+console.log('   // Set to auto mode first');
+console.log('   PixelDrawTheme.setTheme("auto")');
+console.log('   // Then change your OS theme settings');
+console.log('   // Watch the app update automatically!');
+console.log('');
+
+console.log('%cTry it now:', 'font-weight: bold; font-size: 16px; color: #fbbc05;');
+console.log('Type: PixelDrawTheme.toggle()');
+console.log('');
+
+// Display current status
+console.log('%cCurrent Status:', 'font-weight: bold; font-size: 16px; color: #ea4335;');
+console.log('Current Theme:', PixelDrawTheme.getCurrentTheme());
+console.log('Saved Preference:', PixelDrawTheme.getSavedTheme());
+
+// Detect system theme
+const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+console.log('System Theme:', systemTheme);
+console.log('');
+
+// Show if auto-detection is working
+if (PixelDrawTheme.getSavedTheme() === 'auto') {
+    console.log('%c✅ Auto-detection is ACTIVE', 'color: #34a853; font-weight: bold;');
+    console.log('The app will follow your system theme automatically.');
+} else {
+    console.log('%c⚙️ Manual mode is active', 'color: #4285f4; font-weight: bold;');
+    console.log('The app is using your saved preference.');
+    console.log('Run: PixelDrawTheme.setTheme("auto") to enable auto-detection');
+}
+console.log('');
+
+// Add a helper function to monitor theme changes
+window.monitorTheme = function() {
+    console.log('%c🔍 Theme Monitor Started', 'font-weight: bold; color: #4285f4;');
+    console.log('Watching for theme changes...');
+    console.log('Press Ctrl+C to stop');
+    
+    let lastTheme = PixelDrawTheme.getCurrentTheme();
+    
+    const interval = setInterval(() => {
+        const currentTheme = PixelDrawTheme.getCurrentTheme();
+        if (currentTheme !== lastTheme) {
+            console.log(`%c🎨 Theme changed: ${lastTheme} → ${currentTheme}`, 'color: #fbbc05; font-weight: bold;');
+            lastTheme = currentTheme;
+        }
+    }, 500);
+    
+    return interval;
+};
+
+console.log('%cBonus:', 'font-weight: bold; font-size: 16px;');
+console.log('Run: monitorTheme() to watch for theme changes in real-time');
+console.log('');

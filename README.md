@@ -234,6 +234,15 @@ Create symmetrical designs automatically:
 | Cmd/Ctrl + Draw | Temporarily switch to Erase |
 | Cmd/Ctrl + Erase | Temporarily switch to Draw |
 
+### Theme Toggle
+
+Automatic light/dark mode with system theme detection:
+- **Automatic Mode**: Follows your system theme by default
+- **Real-time Updates**: Switches automatically when you change OS theme settings
+- **Manual Override**: Click the theme toggle switch in the header to set a preference
+- Theme preference is saved automatically
+- Both themes are optimized for comfortable use
+- Fallback to light mode if detection is not supported
 
 ## Tips & Tricks
 
@@ -254,6 +263,17 @@ Create symmetrical designs automatically:
 8. **Export Formats**: 
    - Use PNG for final artwork and sharing
    - Use SVG when you need scalable graphics or further editing
+
+## Browser Compatibility
+
+PixelDraw works best in modern browsers:
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+
+## Version
+
+Current version: 0.8.5
 
 
 ## Credits
