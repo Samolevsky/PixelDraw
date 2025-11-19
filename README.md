@@ -6,6 +6,7 @@ A modern, feature-rich pixel art editor. Create stunning pixel art with an intui
 
 - **Multiple Drawing Tools**: Draw, erase, fill, shapes (rectangle, ellipse, line)
 - **Layer System**: Work with multiple layers for complex compositions
+- **Live Effects**: Non-destructive color adjustments per layer (invert, hue, saturation, lightness, brightness, contrast)
 - **Undo/Redo**: Full history support with 50-step memory
 - **Symmetry Tools**: Horizontal, vertical, and rotational symmetry modes
 - **Customizable Canvas**: Flexible grid sizes from 8×8 to 64×64, plus custom dimensions
@@ -13,7 +14,7 @@ A modern, feature-rich pixel art editor. Create stunning pixel art with an intui
 - **Color Palette**: Extensive color palette with custom color support
 - **Zoom & Pan**: Navigate large canvases with zoom (25%-300%) and hand tool
 - **Export Options**: Save as PNG or SVG, with copy-to-clipboard support
-- **Project Management**: Save and load complete projects with all layers
+- **Project Management**: Save and load complete projects with all layers and effects
 - **Automatic Theme Switching**: Detects system theme with real-time updates
 - **Keyboard Shortcuts**: Efficient workflow with hotkeys
 
@@ -180,6 +181,33 @@ Create symmetrical designs automatically:
 - Active layer is highlighted
 - Locked layers cannot be edited
 - Hidden layers don't appear in exports
+
+### Live Effects
+
+Apply non-destructive color adjustments to individual layers:
+
+#### Available Effects
+- **Invert Colors**: Toggle to invert all colors on the layer
+- **Hue**: Shift the hue (-180° to +180°) to change color tones
+- **Saturation**: Adjust color intensity (-100% to +100%)
+- **Lightness**: Make colors lighter or darker (-100% to +100%)
+- **Brightness**: Adjust overall brightness (-100% to +100%)
+- **Contrast**: Increase or decrease contrast (-100% to +100%)
+
+#### Using Live Effects
+1. Select a layer from the Layers panel
+2. Open the Live Effects panel (if collapsed)
+3. Adjust sliders or toggle checkboxes to see real-time changes
+4. Effects apply only to the selected layer
+5. Click the reset button to clear all effects
+6. Effects are saved with your project
+
+#### Key Features
+- **Non-destructive**: Original pixel data is preserved
+- **Real-time preview**: See changes instantly as you adjust
+- **Per-layer**: Each layer can have different effects
+- **Persistent**: Effects are saved in project files
+- **Reversible**: Reset button or manual adjustment to undo
 
 ### Undo/Redo
 
