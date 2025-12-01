@@ -6,7 +6,7 @@ A modern, feature-rich pixel art editor. Create stunning pixel art with an intui
 
 - **Multiple Drawing Tools**: Draw, erase, fill, shapes (rectangle, ellipse, line)
 - **Layer System**: Work with multiple layers for complex compositions
-- **Live Effects**: Non-destructive color adjustments per layer (invert, hue, saturation, lightness, brightness, contrast)
+- **Live Effects**: Non-destructive color adjustments per layer (invert, hue, saturation, lightness, brightness, contrast, blur, opacity) with randomization options
 - **Undo/Redo**: Full history support with 50-step memory
 - **Symmetry Tools**: Horizontal, vertical, and rotational symmetry modes
 - **Customizable Canvas**: Flexible grid sizes from 8×8 to 64×64, plus custom dimensions
@@ -74,6 +74,21 @@ No build process or dependencies required - it's pure HTML, CSS, and JavaScript.
   - Click and drag to define the ellipse
   - Hold Shift for perfect circles
   - Hold Alt/Option to draw from center
+
+- **Marquee Tools (M)**: Select areas of the canvas
+  - **Rectangular Marquee Tool**: Select a rectangular area
+  - **Elliptical Marquee Tool**: Select an elliptical area
+  - Click and drag to define the selection area
+  - Shows a "marching ants" animated outline when selection is active
+  - **Add to Selection**: Hold Shift while dragging to add a new region to the existing selection (cursor changes to show + icon)
+  - **Subtract from Selection**: Hold Alt/Option while dragging to remove a region from the selection (cursor changes to show - icon)
+  - All drawing tools (draw, erase, fill, shapes, line) will only affect pixels within the selection
+  - Press Escape to clear the selection
+  - Selection remains active until cleared or a new selection is made
+
+- **Move Tool (V)**: Move the content of the active layer
+  - Click and drag to reposition layer content
+  - Works only on unlocked layers
 
 - **Line (L)**: Draw straight lines
   - Click and drag to define start and end points
@@ -187,12 +202,20 @@ Create symmetrical designs automatically:
 Apply non-destructive color adjustments to individual layers:
 
 #### Available Effects
-- **Invert Colors**: Toggle to invert all colors on the layer
+- **Opacity**: Control layer transparency (0-100%, default 100%)
+  - **Randomize Opacity**: Add random variation to opacity per pixel (0-100%)
 - **Hue**: Shift the hue (-180° to +180°) to change color tones
+  - **Randomize Hues**: Add random variation to hue per pixel (0-100%)
 - **Saturation**: Adjust color intensity (-100% to +100%)
+  - **Randomize Saturation**: Add random variation to saturation per pixel (0-100%)
 - **Lightness**: Make colors lighter or darker (-100% to +100%)
+  - **Randomize Lightness**: Add random variation to lightness per pixel (0-100%)
 - **Brightness**: Adjust overall brightness (-100% to +100%)
+  - **Randomize Brightness**: Add random variation to brightness per pixel (0-100%)
 - **Contrast**: Increase or decrease contrast (-100% to +100%)
+  - **Randomize Contrast**: Add random variation to contrast per pixel (0-100%)
+- **Blur**: Apply pixelated blur effect (0-10px)
+- **Invert Colors**: Toggle to invert all colors on the layer
 
 #### Using Live Effects
 1. Select a layer from the Layers panel
@@ -208,6 +231,7 @@ Apply non-destructive color adjustments to individual layers:
 - **Per-layer**: Each layer can have different effects
 - **Persistent**: Effects are saved in project files
 - **Reversible**: Reset button or manual adjustment to undo
+- **Smart Reset**: Reset button clears all effects but preserves layer opacity
 
 ### Undo/Redo
 
@@ -252,12 +276,15 @@ Apply non-destructive color adjustments to individual layers:
 | C | Clear layer |
 | R | Rectangle tool |
 | O | Ellipse tool |
+| M | Marquee tool (Rectangular/Elliptical) |
+| V | Move tool |
 | L | Line tool |
 | H | Hand tool |
+| Escape | Clear selection |
 | Ctrl+Z / Cmd+Z | Undo |
 | Ctrl+Y / Cmd+Y | Redo |
-| Shift | Constrain shapes (square/circle) or angles (45°) |
-| Alt/Option | Draw shapes from center |
+| Shift | Constrain shapes (square/circle) or angles (45°) / Add to selection |
+| Alt/Option | Draw shapes from center / Subtract from selection |
 | Space + Drag | Pan canvas (with any tool) |
 | Cmd/Ctrl + Draw | Temporarily switch to Erase |
 | Cmd/Ctrl + Erase | Temporarily switch to Draw |
